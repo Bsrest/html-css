@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppyins:wght@900&display=swap');
+body{
+    padding:0;
+    margin:0;
+    height:120vh;
+    background:#000000;
+    font-family: Stencil Std;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+ul{
+    display:flex ;
+}
+li{
+    list-style:none;
+}
+div{
+    height:60px;
+    width:60px;
+    display:flex;
+    justify-content:center ;
+    align-items:center;
+    font-size:45px;
+    cursor:progress;
+    margin:0 5px;
+    border-radius: 20px; 
+    color:rgb(242, 118, 118);
+    text-shadow:0 0 20px red;
+    animation:animate 2.5s linear forwards;
+  }
+    @keyframes animate{
+  0%{
+    filter: hue-rotate(0deg);
+  }
+  100%{
+    filter: hue-rotate(80deg);
+  }
+  }
+  
+  
+    
+
+
+    
+
